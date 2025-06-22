@@ -1,0 +1,19 @@
+# Minimal requirements for Rage-Reducer
+# Use this file if you have issues with the full requirements.txt
+
+# Core audio processing
+sounddevice>=0.4.6
+numpy>=1.26.0
+
+# GUI Framework  
+PyQt6>=6.6.1
+
+# System integration
+psutil>=5.9.6
+pywin32>=306; sys_platform == "win32"
+
+# Basic utilities
+requests>=2.31.0
+
+# Optional: ONNX Runtime for advanced VAD (comment out if issues)
+onnxruntime>=1.16.3 

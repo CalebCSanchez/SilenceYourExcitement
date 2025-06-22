@@ -1,0 +1,35 @@
+# Audio processing
+sounddevice>=0.4.6
+numpy>=1.26.0  # Compatible with Python 3.13
+librosa>=0.10.1
+
+# RNNoise for noise suppression (optional)
+# rnnoise>=1.0.2  # May not be available for Python 3.13, made optional
+
+# ONNX Runtime for Silero-VAD
+onnxruntime>=1.16.3
+# onnxruntime-gpu>=1.16.3  # Optional GPU support
+
+# GUI Framework
+PyQt6>=6.6.1
+PyQt6-Qt6==6.6.1
+
+# System integration
+psutil>=5.9.6
+pywin32>=306; sys_platform == "win32"
+pynput>=1.7.6
+
+# Utilities
+requests>=2.31.0
+packaging>=23.2
+
+# Development dependencies (optional for basic usage)
+pytest>=7.4.3; extra == "dev"
+pytest-qt>=4.2.0; extra == "dev"
+pytest-cov>=4.1.0; extra == "dev"
+black>=23.11.0; extra == "dev"
+isort>=5.12.0; extra == "dev"
+ruff>=0.1.6; extra == "dev"
+mypy>=1.7.1; extra == "dev"
+pre-commit>=3.5.0; extra == "dev"
+pyinstaller>=6.0.0; extra == "dev" 
